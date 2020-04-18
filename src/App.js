@@ -1,10 +1,19 @@
 import React from 'react';
 
+// import Cards from './Components/Cards/Cards'
+// import Chart from './Components/Cards/Chart'
+// import CountryPicker from './Components/Cards/CountryPicker'
+
+// 同じディレクトリにあるファイルは１つにまとめることができる
+import { Cards, Chart, CountryPicker } from './Components';
+
 class App extends React.Component {
   render() {
     return (
     <div>
-      <h1>App</h1>
+      <Cards/>
+      <CountryPicker/>
+      <Chart/>
     </div>
     )
   }
