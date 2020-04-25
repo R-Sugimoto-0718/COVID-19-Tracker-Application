@@ -23,13 +23,13 @@ const lineChart = (
       datasets: [{
         data: dailyData.map(({ confirmed }) => confirmed),
         label: '感染者',
-        borderColor: '#3333ff',
+        borderColor: 'rgb(132,106,181)',
         fill: true
       }, {
         data: dailyData.map(({ deaths }) => deaths),
         label: '死者',
         borderColor: 'red',
-        backgroundColor: 'rgba(255, 0, 0, 0.5)',
+        backgroundColor: 'rgb(250,70,96)',
         fill: true
       }],
     }}
